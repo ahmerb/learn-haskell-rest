@@ -47,6 +47,10 @@ executable Spock-rest-exe
     , aeson
     , Spock
     , text
+    , monad-logger
+    , persistent
+    , persistent-sqlite
+    , persistent-template
   default-language: Haskell2010
 
 test-suite Spock-rest-test
